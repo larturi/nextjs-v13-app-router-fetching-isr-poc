@@ -23,16 +23,7 @@ const TitlePage: React.FC<Props> = ({
          </div>
          <div className='flex justify-center'>
             <p className='font-light opacity-90 text-center mt-7 mb-5 text-gray-700 dark:text-gray-200 w-3/4 min-w-[300px] md:max-w-[800px]'>
-               {subtitle}
-               <span className='ml-1 underline'>
-                  <a
-                     href={urlExampleGitHub}
-                     target='_blank'
-                     rel='noopener noreferrer'
-                  >
-                     See example on GitHub
-                  </a>
-               </span>
+               {subtitle}{' '}
             </p>
          </div>
       </>
